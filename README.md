@@ -5,9 +5,9 @@ Projeto de Previsão de Vendas.
 
 ## 1. Contexto
 
-A Rossmann é uma grande Rede de Farmácias, com operação na Europa e um grande número de lojas. A diversos fatores que influênciam as vendas, porém não há uma metodologia padrão utlizada para todas as lojas, a previsão de vendas é baseadas de forma individual com base de circunstâncias únicas ocasionando resultados com impressisão e variados.  
+A Rossmann é uma grande Rede de Farmácias, com operação na Europa. A diversos fatores que influênciam as vendas, porém não há uma metodologia padrão utlizada para todas as lojas, a previsão de vendas é baseadas de forma individual com base de circunstâncias únicas ocasionando resultados com imprecisão e variados.  
 
-Os dados utilizados foram disponibilizados pela Rossmann atravéz do site Kaggle, contendo dados de vendas até o ano de 2016.(https://www.kaggle.com/c/rossmann-store-sales/data)
+Os dados utilizados foram disponibilizados pela Rossmann através do site Kaggle, contendo dados de vendas até o ano de 2016.(https://www.kaggle.com/c/rossmann-store-sales/data)
 
 O contexto é fictício, e foi utilizado para descrever um problema real enfrentado por grandes Varejistas, que é padronizar a previsão de vendas em sua rede de lojas. 
 
@@ -15,7 +15,7 @@ O contexto é fictício, e foi utilizado para descrever um problema real enfrent
 
 ### 2.1 Problema 
 
-Durante uma reunião mensal, foi requisitado pelo CFO da empresa uma previsão de Vendas das Próximas 6 semanas de cada Loja. Pois será necessesário ter dados mais precisos para definição do Budget para a Reformas das lojas. 
+Durante uma reunião mensal, foi requisitado pelo CFO da empresa uma previsão de Vendas das Próximas 6 semanas de cada Loja. Pois será necessário ter dados mais precisos para definição do Budget para a Reformas das lojas. 
 
 ### 2.2 Causas do Problema
 
@@ -23,13 +23,13 @@ Predição de vendas usada atualmente apresenta muitas divergências, pois é ba
 
 ### 2.3 Solução 
 
-Será desenvolvido uma solução com uso de Machine Learning para realizar a previsão de Vendas de todas as lojas, assim padronizando a metodologia de previsão de  e buscando aumentar a acertividade das mesmas. 
+Será desenvolvido uma solução com uso de Machine Learning para realizar a previsão de Vendas de todas as lojas, assim padronizando a metodologia de previsão de  e buscando aumentar a assertividade das mesmas. 
 A visualização das predições poderão ser feitas pelo Smartphone. 
 
 
 ## 3. Descrição das Variáveis.
 
-Varíaveis do daset original:
+Variáveis  do daset original:
 
 | Variável |  Descrição  |
 | ------------------- | ------------------- |
