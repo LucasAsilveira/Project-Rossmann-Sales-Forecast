@@ -85,7 +85,7 @@ Variáveis derivadas no Feature Selection:
 
 ### 3.3. Processo :
 
-- Coleta de Dados: Através de download dos dados disponibilizados do site Kaggle(https://www.kaggle.com/c/rossmann-store-sales/data)
+- Coleta de Dados: Através de download dos dados disponibilizados do site Kaggle
 - Limpeza dos Dados: Organizar e Renomear colunas, descrever os tipos, dimensão, checar dados faltantes e Realizar Descrição estatística, criar hipóteses de negócio criando novas variáveis para exploração destas adiante.
 - Exploração dos dados: Fazer análise gráfica das variáveis, validar as hipóteses levantadas.
 - Modelagem dos dados: Será feita a transformação das variáveis fazendo ajuste de escala e fazendo as transformações necessárias para podermos usar o algoritmos de Machine Learning da melhor forma. Usaremos o Boruta junto com a analise das hipóteses para escolher as variáveis para o modelo final.
@@ -93,7 +93,7 @@ Variáveis derivadas no Feature Selection:
 - Avaliação do Algoritmo: Interpretar o erro e o intervalo das predições das vendas encontrados, caso já gere valor para empresa, colocá-lo para produção
 - Modelo em Produção: Colocar o  modelo no Heroku para hospedá-lo e ficar sempre disponível para acesso, onde usaremos um bot do telegram para realizar consultos. 
 
-Este processo passo a passo esta detalhado no Notebook localizado no repositório do github: https://github.com/LucasAsilveira/Project-Rossmann-Sales-Forecast/blob/main/Project_Rossmann_FinalV0.0.ipynb
+Este processo passo a passo esta detalhado no arquivo [Project_Rossmann_FinalV0.0.ipynb](https://github.com/LucasAsilveira/Project-Rossmann-Sales-Forecast/blob/main/Project_Rossmann_FinalV0.0.ipynb) do repositório github.
 
 ## 4. Principais Insights dos Dados:
 
@@ -108,19 +108,37 @@ Este processo passo a passo esta detalhado no Notebook localizado no repositóri
 
 ## 5. Resultados financeiros para o negócio:
 
+Conseguimos obter um modelo que consegue prever o resultado financeiro de vendas nas próximas 6 semanas com um erro médio de 9,7%. Como anteriormente não tínhamos uma forma padronizada de prever estas vendas, não temos um parâmetro de comparação. Mas devido ao volume alto de total de vendas, podemos considerar um erro aceitável. Estas previsões agora padronizadas, poderão ser usadas pelo CFO como pedido. 
+A baixo a tabela de melhor cenário e pior cenário gerado pelo nosso modelo de previsão: 
+
+| cenário |  valor  |
+| ------------------- | ------------------- |
+|  predição |  R$286.922.284,07 |
+|  pior cenário |  R$259,157,085.86 |
+|  melhor cenário |  R$287,668,214.65 |
+
+Estes resultados em forma de apresentação esta no arquivo [Project_Rossmann_FinalV0.0.ipynb](https://github.com/LucasAsilveira/Project-Rossmann-Sales-Forecast/blob/main/Project_Rossmann_Storytelling.ipynb )  do repositório github:. 
+
+O aplicativo do bot do telegram pode ser visto aqui: link_aqui.
+
+## 6. Conclusão:
+
+O objetivo final foi alcançado, melhorando e padronizando a metodologia de previsão de vendas e também tornando estes dados acessíveis de forma rápida e prática.
+Além de gerar Insight importantes durante o processo de exploração de dados. 
 
 
-## AINDA EDITANDO....
+## 7. Próximos Passos:
 
-5. Resultados financeiros para o negócio:
-- Quanto a empresa espera lucrar com a sua
-solução ?
-6. Conclusão:
-- Seu objetivo inicial foi alcançado? Sim ? Não ?
-Porque ?
-7. Conclusão:
-- Seu objetivo inicial foi alcançado? Sim ? Não ?
-Porque ?
+- Coletar feedbacks sobre a Usabilidade afim de implementar melhorias. 
+- Fazer modelos personalizados para as lojas que tiver um erro maior que 20%. 
+- Melhorar o modelo afim de melhorar sua assertividade de previsões, alternado parâmetros e configurações do Modelo. 
+ 
+## 8. Referências:
+
+- Dataset usado do [Kaggle](https://www.kaggle.com/c/rossmann-store-sales/data)
+- Este projeto foi realizado durante o curso 'DS em Produção', [Comunidade DS](https://www.comunidadedatascience.com/ds-em-producao/)
+- Imagem utilizada é de uso livre no site [unsplash](https://unsplash.com/)
+
 
 	
 	
