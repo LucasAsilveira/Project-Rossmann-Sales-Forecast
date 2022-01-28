@@ -115,7 +115,7 @@ A baixo a tabela de melhor cenário e pior cenário gerado pelo nosso modelo de 
 | ------------------- | ------------------- |
 |  predição |  R$286.922.284,07 |
 |  pior cenário |  R$259,157,085.86 |
-|  melhor cenário |  R$287,668,214.65 |
+|  melhor cenário |  R$314,687,482.29 |
 
 Estes resultados em forma de apresentação esta no arquivo [Project_Rossmann_FinalV0.0.ipynb](https://github.com/LucasAsilveira/Project-Rossmann-Sales-Forecast/blob/main/Project_Rossmann_Storytelling.ipynb )  do repositório github:. 
 
