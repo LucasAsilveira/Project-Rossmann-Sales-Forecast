@@ -17,15 +17,15 @@ O contexto é fictício, e foi utilizado para descrever um problema real enfrent
 
 ## 1. Questão de Negócio
 
-### 1.1 Problema 
+### 1.1. Problema 
 
 Durante uma reunião mensal, foi requisitado pelo CFO da empresa uma previsão de Vendas das Próximas 6 semanas de cada Loja. Pois será necessário ter dados mais precisos para definição do Budget para a Reformas das lojas. 
 
-### 1.2 Causas do Problema
+### 1.2. Causas do Problema
 
 Predição de vendas usada atualmente apresenta muitas divergências, pois é baseado em Experiências Passadas, feita manualmente de forma individual por cada loja. A visualização das vendas é limitada ao computador
 
-### 1.3 Solução 
+### 1.3. Solução 
 
 Será desenvolvido uma solução com uso de Machine Learning para realizar a previsão de Vendas de todas as lojas, assim padronizando a metodologia de previsão de  e buscando aumentar a assertividade das mesmas. 
 A visualização das predições poderão ser feitas pelo Smartphone. 
@@ -70,11 +70,11 @@ Variáveis derivadas no Feature Selection:
 
 ## 3. Planejamento da Solução:
 
-### 3.1 O que será entregue:
+### 3.1. O que será entregue:
 
 - Bot desenvolvido no aplicativo Telegram, ao qual será possível ao inserir o código da loja retorna em tempo real a previsão de venda para as próximas  6 semanas. Estas consultas poderão ser realizadas via celular, ou qualquer dispositivo que consiga acessar o Telegram.
 
-### 3.2 Ferramentas Usadas:
+### 3.2. Ferramentas Usadas:
 
 - Python 3.8;
 - Jupyter Notebook;
@@ -83,7 +83,7 @@ Variáveis derivadas no Feature Selection:
 - Heroku;
 - Flask e python API's
 
-### 3.3 Processo :
+### 3.3. Processo :
 
 - Coleta de Dados: Através de download dos dados disponibilizados do site Kaggle(https://www.kaggle.com/c/rossmann-store-sales/data)
 - Limpeza dos Dados: Organizar e Renomear colunas, descrever os tipos, dimensão, checar dados faltantes e Realizar Descrição estatística, criar hipóteses de negócio criando novas variáveis para exploração destas adiante.
@@ -95,16 +95,23 @@ Variáveis derivadas no Feature Selection:
 
 Este processo passo a passo esta detalhado no Notebook localizado no repositório do github: https://github.com/LucasAsilveira/Project-Rossmann-Sales-Forecast/blob/main/Project_Rossmann_FinalV0.0.ipynb
 
+## 4. Principais Insights dos Dados:
 
+1. Lojas com maior sortimentos deveriam vender mais.( FALSO )¶
+- Insight Gerado:  Vimos que um maior número de sortimentos não geraram mais lucros, assim a equipe de estratégias pode fazer uma reavaliação da quantidade de sortimentos nestas lojas. 
 
+2. Lojas com competidores mais próximos deveriam vender menos.¶( FALSO ) 
+- Insight Gerado: A proximidade dos competidores não tiveram um impacto negativo nas vendas, assim quando forem abrir novas filiais não é a principal aspecto a se preocupar. 
 
+3. Lojas deveriam vender mais depois do dia 10 de cada mês.( VERDADEIRO )
+- Insigth Gerado: É percebido um aumento do acumulado nas vendas após dia 10, mesmo levando em consideração que o acumulado possuí mais dias no mês após o dia 10, não há uma queda de vendas significativa, o que faz com que os 10 primeiros dias não sejam tão relevantes com a equipe de vendas sugeria. Podendo usar isto para promoções durante o mês. 
+
+## 5. Resultados financeiros para o negócio:
 
 
 
 ## AINDA EDITANDO....
-4. Os 5 principais insights dos dados:
-- O que há de relevante nos dados que pode
-ajudar o time de negócio à tomar decisão.
+
 5. Resultados financeiros para o negócio:
 - Quanto a empresa espera lucrar com a sua
 solução ?
