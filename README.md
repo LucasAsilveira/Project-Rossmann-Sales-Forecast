@@ -1,33 +1,37 @@
-# Project-Rossmann-Sales-Forecast
+# Project-Rossmann-Sales-Forecast 
+
+
 
 ![nick-morrison-FHnnjk1Yj7Y-unsplash](https://user-images.githubusercontent.com/94136773/151415576-1b2ee7ae-07e5-4051-9114-4f71c6504cde.jpg)
-Projeto de Previsão de Vendas.
 
-## 1. Contexto
+
+## Contexto
+
+#### Projeto de Previsão de Vendas de uma Rede de Farmácias.
 
 A Rossmann é uma grande Rede de Farmácias, com operação na Europa. A diversos fatores que influênciam as vendas, porém não há uma metodologia padrão utlizada para todas as lojas, a previsão de vendas é baseadas de forma individual com base de circunstâncias únicas ocasionando resultados com imprecisão e variados.  
 
-Os dados utilizados foram disponibilizados pela Rossmann através do site Kaggle, contendo dados de vendas até o ano de 2016.(https://www.kaggle.com/c/rossmann-store-sales/data)
+Os dados utilizados foram disponibilizados pela Rossmann através do site Kaggle, contendo dados de vendas até o ano de 2016.
 
 O contexto é fictício, e foi utilizado para descrever um problema real enfrentado por grandes Varejistas, que é padronizar a previsão de vendas em sua rede de lojas. 
 
-## 2. Problema de Negócio
+## 1. Questão de Negócio
 
-### 2.1 Problema 
+### 1.1 Problema 
 
 Durante uma reunião mensal, foi requisitado pelo CFO da empresa uma previsão de Vendas das Próximas 6 semanas de cada Loja. Pois será necessário ter dados mais precisos para definição do Budget para a Reformas das lojas. 
 
-### 2.2 Causas do Problema
+### 1.2 Causas do Problema
 
 Predição de vendas usada atualmente apresenta muitas divergências, pois é baseado em Experiências Passadas, feita manualmente de forma individual por cada loja. A visualização das vendas é limitada ao computador
 
-### 2.3 Solução 
+### 1.3 Solução 
 
 Será desenvolvido uma solução com uso de Machine Learning para realizar a previsão de Vendas de todas as lojas, assim padronizando a metodologia de previsão de  e buscando aumentar a assertividade das mesmas. 
 A visualização das predições poderão ser feitas pelo Smartphone. 
 
 
-## 3. Descrição das Variáveis.
+## 2. Descrição das Variáveis.
 
 Variáveis  do daset original:
 
@@ -64,13 +68,13 @@ Variáveis derivadas no Feature Selection:
 
 
 
-## 4. Planejamento da Solução:
+## 3. Planejamento da Solução:
 
-### 4.1 O que será entregue:
+### 3.1 O que será entregue:
 
 - Bot desenvolvido no aplicativo Telegram, ao qual será possível ao inserir o código da loja retorna em tempo real a previsão de venda para as próximas  6 semanas. Estas consultas poderão ser realizadas via celular, ou qualquer dispositivo que consiga acessar o Telegram.
 
-### 4.2 Ferramentas Usadas:
+### 3.2 Ferramentas Usadas:
 
 - Python 3.8;
 - Jupyter Notebook;
@@ -79,11 +83,37 @@ Variáveis derivadas no Feature Selection:
 - Heroku;
 - Flask e python API's
 
-# 4.3 Planejamento e Metodologia:
+### 3.3 Processo :
 
-- Irei usar o Método CRISP-DS: 
+- Coleta de Dados: Através de download dos dados disponibilizados do site Kaggle(https://www.kaggle.com/c/rossmann-store-sales/data)
+- Limpeza dos Dados: Organizar e Renomear colunas, descrever os tipos, dimensão, checar dados faltantes e Realizar Descrição estatística, criar hipóteses de negócio criando novas variáveis para exploração destas adiante.
+- Exploração dos dados: Fazer análise gráfica das variáveis, validar as hipóteses levantadas.
+- Modelagem dos dados: Será feita a transformação das variáveis fazendo ajuste de escala e fazendo as transformações necessárias para podermos usar o algoritmos de Machine Learning da melhor forma. Usaremos o Boruta junto com a analise das hipóteses para escolher as variáveis para o modelo final.
+- Algoritmo de Machine Learning: Sera feita a avaliação de alguns algortmos de Machine Learning, usando o método Cross Validation para definir qual algoritmo usaremos. Definido o Algoritmo, usaremos a técnica de Random Search para definirmos os melhores parâmetros apara o nosso modelo.
+- Avaliação do Algoritmo: Interpretar o erro e o intervalo das predições das vendas encontrados, caso já gere valor para empresa, colocá-lo para produção
+- Modelo em Produção: Colocar o  modelo no Heroku para hospedá-lo e ficar sempre disponível para acesso, onde usaremos um bot do telegram para realizar consultos. 
+
+Este processo passo a passo esta detalhado no Notebook localizado no repositório do github: https://github.com/LucasAsilveira/Project-Rossmann-Sales-Forecast/blob/main/Project_Rossmann_FinalV0.0.ipynb
 
 
+
+
+
+
+
+## AINDA EDITANDO....
+4. Os 5 principais insights dos dados:
+- O que há de relevante nos dados que pode
+ajudar o time de negócio à tomar decisão.
+5. Resultados financeiros para o negócio:
+- Quanto a empresa espera lucrar com a sua
+solução ?
+6. Conclusão:
+- Seu objetivo inicial foi alcançado? Sim ? Não ?
+Porque ?
+7. Conclusão:
+- Seu objetivo inicial foi alcançado? Sim ? Não ?
+Porque ?
 
 	
 	
