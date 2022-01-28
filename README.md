@@ -53,6 +53,37 @@ Variáveis  do daset original:
 |  promo_interval |  meses de início anual que a promo2 foi iniciada(ex:.feb, may, aug) |
 
 
+Variáveis derivadas no Feature Selection:
+
+| Variável |  Descrição  |
+| ------------------- | ------------------- |
+|  competition_since |  data inícial da existência de conpetidores |
+|  dcompetition_time_month |  número de mêses desde que houve a existência de competidores |
+|  promo2_since |  data inicial de atividade da promo2 |
+|  promo2_time_week |  número de semanas de atividade da promo2 |
+
+
+
+## 4. Planejamento da Solução:
+
+### 4.1 O que será entregue:
+
+- Bot desenvolvido no aplicativo Telegram, ao qual será possível ao inserir o código da loja retorna em tempo real a previsão de venda para as próximas  6 semanas. Estas consultas poderão ser realizadas via celular, ou qualquer dispositivo que consiga acessar o Telegram.
+
+### 4.2 Ferramentas Usadas:
+
+- Python 3.8;
+- Jupyter Notebook;
+- Panda Enviroment;
+- Git e Github;
+- Heroku;
+- Flask e python API's
+
+# 4.3 Planejamento e Metodologia:
+
+- Irei usar o Método CRISP-DS: 
+
+
 
 	
 	
