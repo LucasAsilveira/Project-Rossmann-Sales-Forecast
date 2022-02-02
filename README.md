@@ -117,9 +117,9 @@ A baixo a tabela de melhor cenário e pior cenário gerado pelo nosso modelo de 
 |  pior cenário |  R$259,157,085.86 |
 |  melhor cenário |  R$314,687,482.29 |
 
-Estes resultados em forma de apresentação esta no arquivo [Project_Rossmann_FinalV0.0.ipynb](https://github.com/LucasAsilveira/Project-Rossmann-Sales-Forecast/blob/main/Project_Rossmann_Storytelling.ipynb )  do repositório github:. 
+Estes resultados em forma de apresentação esta no arquivo [Project_Rossmann_Storytelling.ipynb]( https://github.com/LucasAsilveira/Project-Rossmann-Sales-Forecast/blob/main/Project_Rossmann_Storytelling.ipynb)  do repositório github:. 
 
-O aplicativo do bot do telegram pode ser visto aqui: link_aqui.
+O aplicativo do bot do telegram pode ser visto aqui: link_aqui(EM CONSTRUÇÃO).
 
 ## 6. Conclusão:
 
