@@ -127,7 +127,8 @@ Após ser definido o algoritmo de ML a ser usado, foi feito um ajuste fino dos h
 
 ## 6. Respondendo Questões de negócio:
 
-O principal pedido feito pelo CEO, era realizar a previsão de vendas para as próximas 6 semanas. Após desenvolver o modelo de Machine Learn para a produção, este foi armazenado em uma cloud da platarforma Heroku, e desenvolvemos um boot do Telegram, assim é possível ter acesso a predição de qualquer loja do banco de dados, via celular. Uma demonstração de seu uso pode ser visto neste video que exeplifica o uso clicando a seguir: [Link video Boot Telegram]
+O principal pedido feito pelo CEO, era realizar a previsão de vendas para as próximas 6 semanas. Após desenvolver o modelo de Machine Learn para a produção, este foi armazenado em uma cloud da platarforma Heroku, e desenvolvemos um boot do Telegram, assim é possível ter acesso a predição de qualquer loja do banco de dados, via celular. Para fazer a predição basta digitar o id da loja, que ira retornar a predição para esta loja em 6 semanas. 
+Uma demonstração de seu uso pode ser visto neste video que exeplifica o uso clicando a seguir: [Link video Boot Telegram](https://youtu.be/TmcwEpUpcsg)
 
 ## 7. Resultados financeiros para o negócio:
 
