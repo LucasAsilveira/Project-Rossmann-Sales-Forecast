@@ -110,7 +110,7 @@ Este processo passo a passo esta detalhado no arquivo [Project_Rossmann_FinalV0.
 
 <b>Modelos testados:</b>
 
-Para desenvolver o modelo de Machine Learning a ser usado no projeto, inicialmente foi testado o desempenho de alguns algortmos de Machine Learn para podemos selecionar o de melhor desempenho para o nosso problema. Para medir o desempenho cada modelo foi treinado com dados de treino e teste separados por data, como querermos fazer a predição de 3 semanas, a separação foi feita pela data, usando este intervalo. As métricas usadas para analise de desempenho foram os erros MAE, MAP e RSE. Onde o MAE calcula a média do erro previsto, o MAP calcula este erro de forma absoluta e o RMSE que usa o desvio padrão e é independente de escala. Consideraremos para a escolha do modelo o com melhor RMSE.
+Para desenvolver o modelo de Machine Learning a ser usado no projeto, inicialmente foi testado o desempenho de alguns algortmos de Machine Learn para podemos selecionar o de melhor desempenho para o nosso problema. Para medir o desempenho cada modelo foi treinado com dados de treino e teste separados por data, como querermos fazer a predição de 6 semanas, a separação foi feita pela data, usando este intervalo. As métricas usadas para analise de desempenho foram os erros MAE, MAP e RSE. Onde o MAE calcula a média do erro previsto, o MAP calcula este erro de forma absoluta e o RMSE que usa o desvio padrão e é independente de escala. Consideraremos para a escolha do modelo o com melhor RMSE.
 
 ![image](https://user-images.githubusercontent.com/94136773/158182798-0a722df8-63a4-4b47-bd98-e109ee67811f.png)
 
@@ -127,7 +127,7 @@ Após ser definido o algoritmo de ML a ser usado, foi feito um ajuste fino dos h
 
 ## 6. Respondendo Questões de negócio:
 
-
+O principal pedido feito pelo CEO, era realizar a previsão de vendas para as próximas 6 semanas. Após desenvolver o modelo de Machine Learn para a produção, este foi armazenado em uma cloud da platarforma Heroku, e desenvolvemos um boot do Telegram, assim é possível ter acesso a predição de qualquer loja do banco de dados, via celular. Uma demonstração de seu uso pode ser visto neste video que exeplifica o uso clicando a seguir: [Link video Boot Telegram]
 
 ## 7. Resultados financeiros para o negócio:
 
@@ -142,7 +142,6 @@ A baixo a tabela de melhor cenário e pior cenário gerado pelo nosso modelo de 
 
 Estes resultados em forma de apresentação esta no arquivo [Project_Rossmann_Storytelling.ipynb]( https://github.com/LucasAsilveira/Project-Rossmann-Sales-Forecast/blob/main/Project_Rossmann_Storytelling.ipynb)  do repositório github:. 
 
-O aplicativo do bot do telegram pode ser visto aqui: link_aqui(EM CONSTRUÇÃO).
 
 ## 8. Conclusão:
 
