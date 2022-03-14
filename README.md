@@ -106,7 +106,23 @@ Este processo passo a passo esta detalhado no arquivo [Project_Rossmann_FinalV0.
 3. Lojas deveriam vender mais depois do dia 10 de cada mês.( VERDADEIRO )
 - Insigth Gerado: É percebido um aumento do acumulado nas vendas após dia 10, mesmo levando em consideração que o acumulado possuí mais dias no mês após o dia 10, não há uma queda de vendas significativa, o que faz com que os 10 primeiros dias não sejam tão relevantes com a equipe de vendas sugeria. Podendo usar isto para promoções durante o mês. 
 
-## 5. Resultados financeiros para o negócio:
+## 5. Modelo de Machine Learning:
+
+<b>Modelos testados:</b>
+
+Para desenvolver o modelo de Machine Learning a ser usado no projeto, inicialmente foi testado o desempenho de alguns algortmos de Machine Learn para podemos selecionar o de melhor desempenho para o nosso problema. Para medir o desempenho cada modelo foi treinado com dados de treino e teste separados por data, como querermos fazer a predição de 3 semanas, a separação foi feita pela data, usando este intervalo. As métricas usadas para analise de desempenho foram os erros MAE, MAP e RSE. Onde o MAE calcula a média do erro previsto, o MAP calcula este erro de forma absoluta e o RMSE que usa o desvio padrão e é independente de escala. Consideraremos para a escolha do modelo o com melhor RMSE.
+
+![image](https://user-images.githubusercontent.com/94136773/158182798-0a722df8-63a4-4b47-bd98-e109ee67811f.png)
+
+O Algoritmo que apresentou o melhor desempenho foi o Random Forest Regressor, apresentando um menor erro em todas as métricas, porém pelo fato deste algortmo ser mais complexo e exigir maior desempenho de processamento e memória para colocalo em produção, o escolhido para dar seguimento ao projeto foi o XGBoost Regressor, que teve desempenho um pouco a baixo, mas é menos complexo e exigindo menso recursos de Hardware. 
+
+
+
+## 6. Respondendo Questões de negócio:
+
+
+
+## 7. Resultados financeiros para o negócio:
 
 Conseguimos obter um modelo que consegue prever o resultado financeiro de vendas nas próximas 6 semanas com um erro médio de 9,7%. Como anteriormente não tínhamos uma forma padronizada de prever estas vendas, não temos um parâmetro de comparação. Mas devido ao volume alto de total de vendas, podemos considerar um erro aceitável. Estas previsões agora padronizadas, poderão ser usadas pelo CFO como pedido. 
 A baixo a tabela de melhor cenário e pior cenário gerado pelo nosso modelo de previsão: 
@@ -121,13 +137,13 @@ Estes resultados em forma de apresentação esta no arquivo [Project_Rossmann_St
 
 O aplicativo do bot do telegram pode ser visto aqui: link_aqui(EM CONSTRUÇÃO).
 
-## 6. Conclusão:
+## 8. Conclusão:
 
 O objetivo final foi alcançado, melhorando e padronizando a metodologia de previsão de vendas e também tornando estes dados acessíveis de forma rápida e prática.
 Além de gerar Insight importantes durante o processo de exploração de dados. 
 
 
-## 7. Próximos Passos:
+## 9. Próximos Passos:
 
 - Coletar feedbacks sobre a Usabilidade afim de implementar melhorias. 
 - Fazer modelos personalizados para as lojas que tiver um erro maior que 20%. 
