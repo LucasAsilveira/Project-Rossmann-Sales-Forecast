@@ -114,8 +114,15 @@ Para desenvolver o modelo de Machine Learning a ser usado no projeto, inicialmen
 
 ![image](https://user-images.githubusercontent.com/94136773/158182798-0a722df8-63a4-4b47-bd98-e109ee67811f.png)
 
+<b>Analisando Resultados:</b> 
+
 O Algoritmo que apresentou o melhor desempenho foi o Random Forest Regressor, apresentando um menor erro em todas as métricas, porém pelo fato deste algortmo ser mais complexo e exigir maior desempenho de processamento e memória para colocalo em produção, o escolhido para dar seguimento ao projeto foi o XGBoost Regressor, que teve desempenho um pouco a baixo, mas é menos complexo e exigindo menso recursos de Hardware. 
 
+<b>Modelos Final(XGBoost Regressor):</b>
+
+Após ser definido o algoritmo de ML a ser usado, foi feito um ajuste fino dos hyperparâmetros do modelo para melhorar seu desempenho, a técnica usada foi Random Search, técnica de uso rápido e simples, onde definimos alguns valores a ser testados para os principais parâmetros, rodando o algoritmo na base de dados diversas vezes de forma randômica e medindo o seu desempenho para definir os melhores parâmetros a serem usados. Na tabela a baixo, o desempenho do modelo após a ajuste de parâmetros:
+
+![image](https://user-images.githubusercontent.com/94136773/158184542-90241b42-d6b2-4271-8736-9b0e0a7bb45c.png)
 
 
 ## 6. Respondendo Questões de negócio:
