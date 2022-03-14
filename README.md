@@ -78,7 +78,7 @@ Variáveis derivadas no Feature Selection:
 
 - Python 3.8;
 - Jupyter Notebook;
-- Panda Enviroment;
+- Bibliotecas Pandas;
 - Git e Github;
 - Heroku;
 - Flask e python API's
